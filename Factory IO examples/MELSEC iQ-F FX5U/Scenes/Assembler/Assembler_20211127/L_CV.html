@@ -1,0 +1,679 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow">
+<link href="./css/L_CVBaseStyle.css" rel="stylesheet" type="text/css">
+<link href="./css/UserStyle.css" rel="stylesheet" type="text/css">
+<title>L_CV</title>
+</head>
+<body>
+<table class ="L_CV" id="L_CV">
+<tr class="trInitial">
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="trNote">
+	<td class="STATEMENT" colspan="14"><div class="NoteLayout"><div class="Statement" title="LID側 工程歩進制御">LID側 工程歩進制御</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"><span class="step">0</span></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUPDOWN.png" alt="LD"><div class="Device" title="SM400"><div class="SM400"><span class="device_a">SM400</span></div></div><div class="comment" title="常時ON">常時ON</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">DECO</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="M200"><div class="M200"><span class="device_arg">M200</span></div></div><div class="comment" title="L_Step_0:Initial">L_Step_0:Initial</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K5"><div class="K5"><span class="device_arg">K5</span></div></div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"><span class="step">23</span></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUPDOWN.png" alt="LD"><div class="Label" title="g_b_EQ_Start"><div class="g_b_EQ_Start"><span class="device_a">g_b_EQ_Start</span></div></div><div class="comment" title="設備運転中">設備運転中</div></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDDOWN.png" alt="LD"><div class="Device" title="M200"><div class="M200"><span class="device_a">M200</span></div></div><div class="comment" title="L_Step_0:Initial">L_Step_0:Initial</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Label" title="g_b_Cycle_Stop"><div class="g_b_Cycle_Stop"><span class="device_b">g_b_Cycle_Stop</span></div></div><div class="comment" title="サイクル停止受付">サイクル停止受付</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">MOV</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K1"><div class="K1"><span class="device_arg">K1</span></div></div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="BLANK"><div class="CenterLayout"><img src="./img/BLANKUPDOWN.png" alt="BLANK"></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUPDOWN.png" alt="LD"><div class="Device" title="M201"><div class="M201"><span class="device_a">M201</span></div></div><div class="comment" title="L_Step_1:Y_L側CV運転[ON]">L_Step_1:Y_L側CV運転[ON]</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">MOV</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K2"><div class="K2"><span class="device_arg">K2</span></div></div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="BLANK"><div class="CenterLayout"><img src="./img/BLANKUPDOWN.png" alt="BLANK"></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUPDOWN.png" alt="LD"><div class="Device" title="M202"><div class="M202"><span class="device_a">M202</span></div></div><div class="comment" title="L_Step_2:X_L側Work通過[ON]">L_Step_2:X_L側Work通過[ON]</div></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LD.png" alt="LD"><div class="Label" title="mb_DI03"><div class="mb_DI03"><span class="device_a">mb_DI03</span></div></div><div class="comment" title="L側:蓋の位置">L側:蓋の位置</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">MOV</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K3"><div class="K3"><span class="device_arg">K3</span></div></div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="BLANK"><div class="CenterLayout"><img src="./img/BLANKUPDOWN.png" alt="BLANK"></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUPDOWN.png" alt="LD"><div class="Device" title="M203"><div class="M203"><span class="device_a">M203</span></div></div><div class="comment" title="L_Step_3:X_L側Work通過[OFF]">L_Step_3:X_L側Work通過[OFF]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Label" title="mb_DI03"><div class="mb_DI03"><span class="device_b">mb_DI03</span></div></div><div class="comment" title="L側:蓋の位置">L側:蓋の位置</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">MOV</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K4"><div class="K4"><span class="device_arg">K4</span></div></div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="BLANK"><div class="CenterLayout"><img src="./img/BLANKUPDOWN.png" alt="BLANK"></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUPDOWN.png" alt="LD"><div class="Device" title="M204"><div class="M204"><span class="device_a">M204</span></div></div><div class="comment" title="L_Step_4:Y_L側CV運転[OFF]">L_Step_4:Y_L側CV運転[OFF]</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">MOV</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K5"><div class="K5"><span class="device_arg">K5</span></div></div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="BLANK"><div class="CenterLayout"><img src="./img/BLANKUPDOWN.png" alt="BLANK"></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUPDOWN.png" alt="LD"><div class="Device" title="M205"><div class="M205"><span class="device_a">M205</span></div></div><div class="comment" title="L_Step_5:Y_L側クランプ[ON]">L_Step_5:Y_L側クランプ[ON]</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">MOV</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K6"><div class="K6"><span class="device_arg">K6</span></div></div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="BLANK"><div class="CenterLayout"><img src="./img/BLANKUPDOWN.png" alt="BLANK"></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUPDOWN.png" alt="LD"><div class="Device" title="M206"><div class="M206"><span class="device_a">M206</span></div></div><div class="comment" title="L_Step_6:X_L側クランプ閉[ON]">L_Step_6:X_L側クランプ閉[ON]</div></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LD.png" alt="LD"><div class="Label" title="mb_DI04"><div class="mb_DI04"><span class="device_a">mb_DI04</span></div></div><div class="comment" title="L側:蓋クランプ">L側:蓋クランプ</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">MOV</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K7"><div class="K7"><span class="device_arg">K7</span></div></div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="BLANK"><div class="CenterLayout"><img src="./img/BLANKUPDOWN.png" alt="BLANK"></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUPDOWN.png" alt="LD"><div class="Device" title="M207"><div class="M207"><span class="device_a">M207</span></div></div><div class="comment" title="L_Step_7:Y_下降[ON]">L_Step_7:Y_下降[ON]</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">MOV</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K8"><div class="K8"><span class="device_arg">K8</span></div></div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="BLANK"><div class="CenterLayout"><img src="./img/BLANKUPDOWN.png" alt="BLANK"></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUPDOWN.png" alt="LD"><div class="Device" title="M208"><div class="M208"><span class="device_a">M208</span></div></div><div class="comment" title="L_Step_8:X_Z動作中[ON]">L_Step_8:X_Z動作中[ON]</div></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LD.png" alt="LD"><div class="Label" title="mb_DI01"><div class="mb_DI01"><span class="device_a">mb_DI01</span></div></div><div class="comment" title="移動中Z(下降)">移動中Z(下降)</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">MOV</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K9"><div class="K9"><span class="device_arg">K9</span></div></div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="BLANK"><div class="CenterLayout"><img src="./img/BLANKUPDOWN.png" alt="BLANK"></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUPDOWN.png" alt="LD"><div class="Device" title="M209"><div class="M209"><span class="device_a">M209</span></div></div><div class="comment" title="L_Step_9:X_Z動作中[OFF]">L_Step_9:X_Z動作中[OFF]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Label" title="mb_DI01"><div class="mb_DI01"><span class="device_b">mb_DI01</span></div></div><div class="comment" title="移動中Z(下降)">移動中Z(下降)</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">MOV</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K10"><div class="K10"><span class="device_arg">K10</span></div></div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="BLANK"><div class="CenterLayout"><img src="./img/BLANKUPDOWN.png" alt="BLANK"></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUPDOWN.png" alt="LD"><div class="Device" title="M210"><div class="M210"><span class="device_a">M210</span></div></div><div class="comment" title="L_Step_10:X_下降時Work検出[ON]">L_Step_10:X_下降時Work検出[ON]</div></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LD.png" alt="LD"><div class="Label" title="mb_DI02"><div class="mb_DI02"><span class="device_a">mb_DI02</span></div></div><div class="comment" title="アイテム検出">アイテム検出</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">MOV</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K11"><div class="K11"><span class="device_arg">K11</span></div></div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="BLANK"><div class="CenterLayout"><img src="./img/BLANKUPDOWN.png" alt="BLANK"></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUPDOWN.png" alt="LD"><div class="Device" title="M211"><div class="M211"><span class="device_a">M211</span></div></div><div class="comment" title="L_Step_11:Y_吸着[ON]">L_Step_11:Y_吸着[ON]</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">MOV</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K12"><div class="K12"><span class="device_arg">K12</span></div></div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="BLANK"><div class="CenterLayout"><img src="./img/BLANKUPDOWN.png" alt="BLANK"></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUPDOWN.png" alt="LD"><div class="Device" title="M212"><div class="M212"><span class="device_a">M212</span></div></div><div class="comment" title="L_Step_12:Y_L側クランプ[OFF]">L_Step_12:Y_L側クランプ[OFF]</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">MOV</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K13"><div class="K13"><span class="device_arg">K13</span></div></div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="BLANK"><div class="CenterLayout"><img src="./img/BLANKUPDOWN.png" alt="BLANK"></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUPDOWN.png" alt="LD"><div class="Device" title="M213"><div class="M213"><span class="device_a">M213</span></div></div><div class="comment" title="L_Step_13:Y_下降[OFF]">L_Step_13:Y_下降[OFF]</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">MOV</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K14"><div class="K14"><span class="device_arg">K14</span></div></div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="BLANK"><div class="CenterLayout"><img src="./img/BLANKUPDOWN.png" alt="BLANK"></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUPDOWN.png" alt="LD"><div class="Device" title="M214"><div class="M214"><span class="device_a">M214</span></div></div><div class="comment" title="L_Step_14:X_Z動作中[ON]">L_Step_14:X_Z動作中[ON]</div></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LD.png" alt="LD"><div class="Label" title="mb_DI01"><div class="mb_DI01"><span class="device_a">mb_DI01</span></div></div><div class="comment" title="移動中Z(下降)">移動中Z(下降)</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">MOV</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K15"><div class="K15"><span class="device_arg">K15</span></div></div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="BLANK"><div class="CenterLayout"><img src="./img/BLANKUPDOWN.png" alt="BLANK"></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUPDOWN.png" alt="LD"><div class="Device" title="M215"><div class="M215"><span class="device_a">M215</span></div></div><div class="comment" title="L_Step_15:X_Z動作中[OFF]">L_Step_15:X_Z動作中[OFF]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Label" title="mb_DI01"><div class="mb_DI01"><span class="device_b">mb_DI01</span></div></div><div class="comment" title="移動中Z(下降)">移動中Z(下降)</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">MOV</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K16"><div class="K16"><span class="device_arg">K16</span></div></div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="BLANK"><div class="CenterLayout"><img src="./img/BLANKUPDOWN.png" alt="BLANK"></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUPDOWN.png" alt="LD"><div class="Device" title="M216"><div class="M216"><span class="device_a">M216</span></div></div><div class="comment" title="L_Step_16:Y_ハンドB側[ON]">L_Step_16:Y_ハンドB側[ON]</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">MOV</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K17"><div class="K17"><span class="device_arg">K17</span></div></div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="BLANK"><div class="CenterLayout"><img src="./img/BLANKUPDOWN.png" alt="BLANK"></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUPDOWN.png" alt="LD"><div class="Device" title="M217"><div class="M217"><span class="device_a">M217</span></div></div><div class="comment" title="L_Step_17:X_X動作中[ON]">L_Step_17:X_X動作中[ON]</div></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LD.png" alt="LD"><div class="Label" title="mb_DI00"><div class="mb_DI00"><span class="device_a">mb_DI00</span></div></div><div class="comment" title="移動中X(B側移動)">移動中X(B側移動)</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">MOV</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K18"><div class="K18"><span class="device_arg">K18</span></div></div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="BLANK"><div class="CenterLayout"><img src="./img/BLANKUPDOWN.png" alt="BLANK"></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUPDOWN.png" alt="LD"><div class="Device" title="M218"><div class="M218"><span class="device_a">M218</span></div></div><div class="comment" title="L_Step_18:X_X動作中[OFF]">L_Step_18:X_X動作中[OFF]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Label" title="mb_DI00"><div class="mb_DI00"><span class="device_b">mb_DI00</span></div></div><div class="comment" title="移動中X(B側移動)">移動中X(B側移動)</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">MOV</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K19"><div class="K19"><span class="device_arg">K19</span></div></div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="BLANK"><div class="CenterLayout"><img src="./img/BLANKUPDOWN.png" alt="BLANK"></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUPDOWN.png" alt="LD"><div class="Device" title="M219"><div class="M219"><span class="device_a">M219</span></div></div><div class="comment" title="L_Step_19:B側準備OK">L_Step_19:B側準備OK</div></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LD.png" alt="LD"><div class="Device" title="M307"><div class="M307"><span class="device_a">M307</span></div></div><div class="comment" title="B_Step_7:L側準備完了[]">B_Step_7:L側準備完了[]</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">MOV</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K20"><div class="K20"><span class="device_arg">K20</span></div></div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="BLANK"><div class="CenterLayout"><img src="./img/BLANKUPDOWN.png" alt="BLANK"></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUPDOWN.png" alt="LD"><div class="Device" title="M220"><div class="M220"><span class="device_a">M220</span></div></div><div class="comment" title="L_Step_20:Y_下降[ON]">L_Step_20:Y_下降[ON]</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">MOV</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K21"><div class="K21"><span class="device_arg">K21</span></div></div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="BLANK"><div class="CenterLayout"><img src="./img/BLANKUPDOWN.png" alt="BLANK"></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUPDOWN.png" alt="LD"><div class="Device" title="M221"><div class="M221"><span class="device_a">M221</span></div></div><div class="comment" title="L_Step_21:X_Z動作中[ON]">L_Step_21:X_Z動作中[ON]</div></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LD.png" alt="LD"><div class="Label" title="mb_DI01"><div class="mb_DI01"><span class="device_a">mb_DI01</span></div></div><div class="comment" title="移動中Z(下降)">移動中Z(下降)</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">MOV</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K22"><div class="K22"><span class="device_arg">K22</span></div></div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="BLANK"><div class="CenterLayout"><img src="./img/BLANKUPDOWN.png" alt="BLANK"></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUPDOWN.png" alt="LD"><div class="Device" title="M222"><div class="M222"><span class="device_a">M222</span></div></div><div class="comment" title="L_Step_22:X_Z動作中[OFF]">L_Step_22:X_Z動作中[OFF]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Label" title="mb_DI01"><div class="mb_DI01"><span class="device_b">mb_DI01</span></div></div><div class="comment" title="移動中Z(下降)">移動中Z(下降)</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">MOV</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K23"><div class="K23"><span class="device_arg">K23</span></div></div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="BLANK"><div class="CenterLayout"><img src="./img/BLANKUPDOWN.png" alt="BLANK"></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUPDOWN.png" alt="LD"><div class="Device" title="M223"><div class="M223"><span class="device_a">M223</span></div></div><div class="comment" title="L_Step_23:Y_吸着[OFF]">L_Step_23:Y_吸着[OFF]</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">MOV</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K24"><div class="K24"><span class="device_arg">K24</span></div></div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="BLANK"><div class="CenterLayout"><img src="./img/BLANKUPDOWN.png" alt="BLANK"></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUPDOWN.png" alt="LD"><div class="Device" title="M224"><div class="M224"><span class="device_a">M224</span></div></div><div class="comment" title="L_Step_24:Y_下降[OFF]">L_Step_24:Y_下降[OFF]</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">MOV</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K25"><div class="K25"><span class="device_arg">K25</span></div></div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="BLANK"><div class="CenterLayout"><img src="./img/BLANKUPDOWN.png" alt="BLANK"></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUPDOWN.png" alt="LD"><div class="Device" title="M225"><div class="M225"><span class="device_a">M225</span></div></div><div class="comment" title="L_Step_25:X_Z動作中[ON]">L_Step_25:X_Z動作中[ON]</div></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LD.png" alt="LD"><div class="Label" title="mb_DI01"><div class="mb_DI01"><span class="device_a">mb_DI01</span></div></div><div class="comment" title="移動中Z(下降)">移動中Z(下降)</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">MOV</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K26"><div class="K26"><span class="device_arg">K26</span></div></div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="BLANK"><div class="CenterLayout"><img src="./img/BLANKUPDOWN.png" alt="BLANK"></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUPDOWN.png" alt="LD"><div class="Device" title="M226"><div class="M226"><span class="device_a">M226</span></div></div><div class="comment" title="L_Step_26:X_Z動作中[OFF]">L_Step_26:X_Z動作中[OFF]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Label" title="mb_DI01"><div class="mb_DI01"><span class="device_b">mb_DI01</span></div></div><div class="comment" title="移動中Z(下降)">移動中Z(下降)</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">MOV</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K27"><div class="K27"><span class="device_arg">K27</span></div></div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="BLANK"><div class="CenterLayout"><img src="./img/BLANKUPDOWN.png" alt="BLANK"></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUPDOWN.png" alt="LD"><div class="Device" title="M227"><div class="M227"><span class="device_a">M227</span></div></div><div class="comment" title="L_Step_27:Y_ハンドB側[OFF]">L_Step_27:Y_ハンドB側[OFF]</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">MOV</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K28"><div class="K28"><span class="device_arg">K28</span></div></div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="BLANK"><div class="CenterLayout"><img src="./img/BLANKUPDOWN.png" alt="BLANK"></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUPDOWN.png" alt="LD"><div class="Device" title="M228"><div class="M228"><span class="device_a">M228</span></div></div><div class="comment" title="L_Step_28:X_X動作中[ON]">L_Step_28:X_X動作中[ON]</div></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LD.png" alt="LD"><div class="Label" title="mb_DI00"><div class="mb_DI00"><span class="device_a">mb_DI00</span></div></div><div class="comment" title="移動中X(B側移動)">移動中X(B側移動)</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">MOV</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K29"><div class="K29"><span class="device_arg">K29</span></div></div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="BLANK"><div class="CenterLayout"><img src="./img/BLANKUPDOWN.png" alt="BLANK"></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LDUP.png" alt="LD"><div class="Device" title="M229"><div class="M229"><span class="device_a">M229</span></div></div><div class="comment" title="L_Step_29:X_X動作中[OFF]">L_Step_29:X_X動作中[OFF]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Label" title="mb_DI00"><div class="mb_DI00"><span class="device_b">mb_DI00</span></div></div><div class="comment" title="移動中X(B側移動)">移動中X(B側移動)</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COMMAND"><div class="CenterLayout"><img src="./img/COMMAND.png" alt="COMMAND"><div class="Command">MOV</div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="K0"><div class="K0"><span class="device_arg">K0</span></div></div></div></td>
+	<td class="ARG"><div class="CenterLayout"><img src="./img/ARG.png" alt="ARG"><div class="Device" title="R0"><div class="R0"><span class="device_arg">R0</span></div></div><div class="comment" title="Lid_Step">Lid_Step</div></div></td>
+</tr>
+<tr class="trNote">
+	<td class="STATEMENT" colspan="14"><div class="NoteLayout"><div class="Statement" title="LID側 機器指令出力条件">LID側 機器指令出力条件</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"><span class="step">273</span></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDIUPDOWN.png" alt="LDI"><div class="Device" title="M216"><div class="M216"><span class="device_b">M216</span></div></div><div class="comment" title="L_Step_16:Y_ハンドB側[ON]">L_Step_16:Y_ハンドB側[ON]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M217"><div class="M217"><span class="device_b">M217</span></div></div><div class="comment" title="L_Step_17:X_X動作中[ON]">L_Step_17:X_X動作中[ON]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M218"><div class="M218"><span class="device_b">M218</span></div></div><div class="comment" title="L_Step_18:X_X動作中[OFF]">L_Step_18:X_X動作中[OFF]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M219"><div class="M219"><span class="device_b">M219</span></div></div><div class="comment" title="L_Step_19:B側準備OK">L_Step_19:B側準備OK</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M220"><div class="M220"><span class="device_b">M220</span></div></div><div class="comment" title="L_Step_20:Y_下降[ON]">L_Step_20:Y_下降[ON]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M221"><div class="M221"><span class="device_b">M221</span></div></div><div class="comment" title="L_Step_21:X_Z動作中[ON]">L_Step_21:X_Z動作中[ON]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M222"><div class="M222"><span class="device_b">M222</span></div></div><div class="comment" title="L_Step_22:X_Z動作中[OFF]">L_Step_22:X_Z動作中[OFF]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M223"><div class="M223"><span class="device_b">M223</span></div></div><div class="comment" title="L_Step_23:Y_吸着[OFF]">L_Step_23:Y_吸着[OFF]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M224"><div class="M224"><span class="device_b">M224</span></div></div><div class="comment" title="L_Step_24:Y_下降[OFF]">L_Step_24:Y_下降[OFF]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M225"><div class="M225"><span class="device_b">M225</span></div></div><div class="comment" title="L_Step_25:X_Z動作中[ON]">L_Step_25:X_Z動作中[ON]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M226"><div class="M226"><span class="device_b">M226</span></div></div><div class="comment" title="L_Step_26:X_Z動作中[OFF]">L_Step_26:X_Z動作中[OFF]</div></div></td>
+	<td class="RET"><div class="CenterLayout"><img src="./img/RET.png" alt="RET"><div class="Operator" title="K0">K0</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="DST"><div class="CenterLayout"><img src="./img/DSTUPDOWN.png" alt="DST"><div class="Operator" title="K0">K0</div></div></td>
+	<td class="INV"><div class="CenterLayout"><img src="./img/INV.png" alt="INV"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COIL"><div class="NormalLayout"><img src="./img/COIL.png" alt="COIL"><div class="Label" title="mb_DO00"><div class="mb_DO00"><span class="device_c">mb_DO00</span></div></div><div class="comment" title="X移動指令(B側移動)">X移動指令(B側移動)</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"><span class="step">316</span></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDIUPDOWN.png" alt="LDI"><div class="Device" title="M207"><div class="M207"><span class="device_b">M207</span></div></div><div class="comment" title="L_Step_7:Y_下降[ON]">L_Step_7:Y_下降[ON]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M208"><div class="M208"><span class="device_b">M208</span></div></div><div class="comment" title="L_Step_8:X_Z動作中[ON]">L_Step_8:X_Z動作中[ON]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M209"><div class="M209"><span class="device_b">M209</span></div></div><div class="comment" title="L_Step_9:X_Z動作中[OFF]">L_Step_9:X_Z動作中[OFF]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M210"><div class="M210"><span class="device_b">M210</span></div></div><div class="comment" title="L_Step_10:X_下降時Work検出[ON]">L_Step_10:X_下降時Work検出[ON]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M211"><div class="M211"><span class="device_b">M211</span></div></div><div class="comment" title="L_Step_11:Y_吸着[ON]">L_Step_11:Y_吸着[ON]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M212"><div class="M212"><span class="device_b">M212</span></div></div><div class="comment" title="L_Step_12:Y_L側クランプ[OFF]">L_Step_12:Y_L側クランプ[OFF]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M220"><div class="M220"><span class="device_b">M220</span></div></div><div class="comment" title="L_Step_20:Y_下降[ON]">L_Step_20:Y_下降[ON]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M221"><div class="M221"><span class="device_b">M221</span></div></div><div class="comment" title="L_Step_21:X_Z動作中[ON]">L_Step_21:X_Z動作中[ON]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M222"><div class="M222"><span class="device_b">M222</span></div></div><div class="comment" title="L_Step_22:X_Z動作中[OFF]">L_Step_22:X_Z動作中[OFF]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M223"><div class="M223"><span class="device_b">M223</span></div></div><div class="comment" title="L_Step_23:Y_吸着[OFF]">L_Step_23:Y_吸着[OFF]</div></div></td>
+	<td class="INV"><div class="CenterLayout"><img src="./img/INV.png" alt="INV"></div></td>
+	<td class="COIL"><div class="NormalLayout"><img src="./img/COIL.png" alt="COIL"><div class="Label" title="mb_DO01"><div class="mb_DO01"><span class="device_c">mb_DO01</span></div></div><div class="comment" title="Z移動指令(下降)">Z移動指令(下降)</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"><span class="step">339</span></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDIUPDOWN.png" alt="LDI"><div class="Device" title="M211"><div class="M211"><span class="device_b">M211</span></div></div><div class="comment" title="L_Step_11:Y_吸着[ON]">L_Step_11:Y_吸着[ON]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M212"><div class="M212"><span class="device_b">M212</span></div></div><div class="comment" title="L_Step_12:Y_L側クランプ[OFF]">L_Step_12:Y_L側クランプ[OFF]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M213"><div class="M213"><span class="device_b">M213</span></div></div><div class="comment" title="L_Step_13:Y_下降[OFF]">L_Step_13:Y_下降[OFF]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M214"><div class="M214"><span class="device_b">M214</span></div></div><div class="comment" title="L_Step_14:X_Z動作中[ON]">L_Step_14:X_Z動作中[ON]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M215"><div class="M215"><span class="device_b">M215</span></div></div><div class="comment" title="L_Step_15:X_Z動作中[OFF]">L_Step_15:X_Z動作中[OFF]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M216"><div class="M216"><span class="device_b">M216</span></div></div><div class="comment" title="L_Step_16:Y_ハンドB側[ON]">L_Step_16:Y_ハンドB側[ON]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M217"><div class="M217"><span class="device_b">M217</span></div></div><div class="comment" title="L_Step_17:X_X動作中[ON]">L_Step_17:X_X動作中[ON]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M218"><div class="M218"><span class="device_b">M218</span></div></div><div class="comment" title="L_Step_18:X_X動作中[OFF]">L_Step_18:X_X動作中[OFF]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M219"><div class="M219"><span class="device_b">M219</span></div></div><div class="comment" title="L_Step_19:B側準備OK">L_Step_19:B側準備OK</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M220"><div class="M220"><span class="device_b">M220</span></div></div><div class="comment" title="L_Step_20:Y_下降[ON]">L_Step_20:Y_下降[ON]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M221"><div class="M221"><span class="device_b">M221</span></div></div><div class="comment" title="L_Step_21:X_Z動作中[ON]">L_Step_21:X_Z動作中[ON]</div></div></td>
+	<td class="RET"><div class="CenterLayout"><img src="./img/RET.png" alt="RET"><div class="Operator" title="K0">K0</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"></div></td>
+	<td class="DST"><div class="CenterLayout"><img src="./img/DSTUPDOWN.png" alt="DST"><div class="Operator" title="K0">K0</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M222"><div class="M222"><span class="device_b">M222</span></div></div><div class="comment" title="L_Step_22:X_Z動作中[OFF]">L_Step_22:X_Z動作中[OFF]</div></div></td>
+	<td class="INV"><div class="CenterLayout"><img src="./img/INV.png" alt="INV"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COIL"><div class="NormalLayout"><img src="./img/COIL.png" alt="COIL"><div class="Label" title="mb_DO02"><div class="mb_DO02"><span class="device_c">mb_DO02</span></div></div><div class="comment" title="吸着">吸着</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"><span class="step">366</span></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDIUPDOWN.png" alt="LDI"><div class="Device" title="M201"><div class="M201"><span class="device_b">M201</span></div></div><div class="comment" title="L_Step_1:Y_L側CV運転[ON]">L_Step_1:Y_L側CV運転[ON]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M202"><div class="M202"><span class="device_b">M202</span></div></div><div class="comment" title="L_Step_2:X_L側Work通過[ON]">L_Step_2:X_L側Work通過[ON]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M203"><div class="M203"><span class="device_b">M203</span></div></div><div class="comment" title="L_Step_3:X_L側Work通過[OFF]">L_Step_3:X_L側Work通過[OFF]</div></div></td>
+	<td class="INV"><div class="CenterLayout"><img src="./img/INV.png" alt="INV"></div></td>
+	<td class="LD"><div class="NormalLayout"><img src="./img/LD.png" alt="LD"><div class="Label" title="g_b_EQ_Start"><div class="g_b_EQ_Start"><span class="device_a">g_b_EQ_Start</span></div></div><div class="comment" title="設備運転中">設備運転中</div></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COIL"><div class="NormalLayout"><img src="./img/COIL.png" alt="COIL"><div class="Label" title="mb_DO03"><div class="mb_DO03"><span class="device_c">mb_DO03</span></div></div><div class="comment" title="L側:コンベア起動">L側:コンベア起動</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"><span class="step">378</span></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDIUPDOWN.png" alt="LDI"><div class="Device" title="M205"><div class="M205"><span class="device_b">M205</span></div></div><div class="comment" title="L_Step_5:Y_L側クランプ[ON]">L_Step_5:Y_L側クランプ[ON]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M206"><div class="M206"><span class="device_b">M206</span></div></div><div class="comment" title="L_Step_6:X_L側クランプ閉[ON]">L_Step_6:X_L側クランプ閉[ON]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M207"><div class="M207"><span class="device_b">M207</span></div></div><div class="comment" title="L_Step_7:Y_下降[ON]">L_Step_7:Y_下降[ON]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M208"><div class="M208"><span class="device_b">M208</span></div></div><div class="comment" title="L_Step_8:X_Z動作中[ON]">L_Step_8:X_Z動作中[ON]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M209"><div class="M209"><span class="device_b">M209</span></div></div><div class="comment" title="L_Step_9:X_Z動作中[OFF]">L_Step_9:X_Z動作中[OFF]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M210"><div class="M210"><span class="device_b">M210</span></div></div><div class="comment" title="L_Step_10:X_下降時Work検出[ON]">L_Step_10:X_下降時Work検出[ON]</div></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDI.png" alt="LDI"><div class="Device" title="M211"><div class="M211"><span class="device_b">M211</span></div></div><div class="comment" title="L_Step_11:Y_吸着[ON]">L_Step_11:Y_吸着[ON]</div></div></td>
+	<td class="INV"><div class="CenterLayout"><img src="./img/INV.png" alt="INV"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COIL"><div class="NormalLayout"><img src="./img/COIL.png" alt="COIL"><div class="Label" title="mb_DO04"><div class="mb_DO04"><span class="device_c">mb_DO04</span></div></div><div class="comment" title="L側:クランプ作動">L側:クランプ作動</div></div></td>
+</tr>
+<tr class="trNote">
+	<td class="STATEMENT" colspan="14"><div class="NoteLayout"><div class="Statement" title="未使用機器">未使用機器</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"><span class="step">395</span></div></td>
+	<td class="LDI"><div class="NormalLayout"><img src="./img/LDIUPDOWN.png" alt="LDI"><div class="Device" title="SM401"><div class="SM401"><span class="device_b">SM401</span></div></div><div class="comment" title="常時OFF">常時OFF</div></div></td>
+	<td class="INV"><div class="CenterLayout"><img src="./img/INV.png" alt="INV"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="COIL"><div class="NormalLayout"><img src="./img/COIL.png" alt="COIL"><div class="Label" title="mb_DO05"><div class="mb_DO05"><span class="device_c">mb_DO05</span></div></div><div class="comment" title="L側:クランプ上昇">L側:クランプ上昇</div></div></td>
+</tr>
+<tr>
+	<td class="POINTER"><div class="CenterLayout"></div></td>
+	<td class="STEPNO"><div class="CenterLayout"><span class="step">410</span></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINEUPDOWN.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="HLINE"><div class="CenterLayout"><img src="./img/HLINE.png" alt="HLINE"></div></td>
+	<td class="END"><div class="CenterLayout"><img src="./img/END.png" alt="END"></div></td>
+</tr>
+</table>
+</body>
+</html>
